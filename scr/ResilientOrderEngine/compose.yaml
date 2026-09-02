@@ -1,7 +1,0 @@
-﻿services:
-  resilientorderengine.api:
-    image: resilientorderengine.api
-    build:
-      context: .
-      dockerfile: ResilientOrderEngine.Api/Dockerfile
-

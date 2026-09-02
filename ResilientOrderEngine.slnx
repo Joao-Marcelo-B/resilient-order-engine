@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/tests/">
+    <Project Path="tests/ResilientOrderEngine.IntegrationTests/ResilientOrderEngine.IntegrationTests.csproj" />
+    <Project Path="tests/ResilientOrderEngine.UnitTests/ResilientOrderEngine.UnitTests.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/ResilientOrderEngine.Api/ResilientOrderEngine.Api.csproj" />
+    <Project Path="src/ResilientOrderEngine.Application/ResilientOrderEngine.Application.csproj" />
+    <Project Path="src/ResilientOrderEngine.Domain/ResilientOrderEngine.Domain.csproj" />
+    <Project Path="src/ResilientOrderEngine.Infrastructure/ResilientOrderEngine.Infrastructure.csproj" />
+  </Folder>
+</Solution>

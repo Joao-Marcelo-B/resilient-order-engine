@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilientOrderEngine.Api", "ResilientOrderEngine.Api\ResilientOrderEngine.Api.csproj", "{874A482C-F16A-4090-9230-F0D67168CFA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E602AE54-1FBE-485F-B238-0166A70BB444}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{874A482C-F16A-4090-9230-F0D67168CFA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874A482C-F16A-4090-9230-F0D67168CFA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874A482C-F16A-4090-9230-F0D67168CFA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874A482C-F16A-4090-9230-F0D67168CFA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

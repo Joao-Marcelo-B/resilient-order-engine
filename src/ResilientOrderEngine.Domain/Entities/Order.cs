@@ -11,8 +11,8 @@ public class Order : BaseEntity
     public string CustomerDeliveryAddress { get; private set; }
     public decimal TotalAmount { get; private set; }
     public Invoice? Invoice { get; private set; }
-    public OrderStatus Status { get; set; }
-    public readonly List<OrderItem> _items = new();
+    public OrderStatus Status { get; private set; }
+    private readonly List<OrderItem> _items = [];
     public IReadOnlyCollection<OrderItem> Items => _items.AsReadOnly();
 
     protected Order()
@@ -46,6 +46,7 @@ public class Order : BaseEntity
             throw new DomainException("Não é mais possível adicionar itens ao pedido");
         
         var item = new OrderItem(
+            Id,
             sku, 
             productName, 
             unitPrice, 
